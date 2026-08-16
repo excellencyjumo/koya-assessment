@@ -4,7 +4,7 @@ from lead_scoring import load_and_score
 
 st.set_page_config(page_title="Lead Triage System", layout="wide")
 
-st.title("Lead Triage System")
+st.title("Lead Qualification System")
 st.caption(
     "Upload a lead export (CSV). The system cleans the data, filters out "
     "non-leads (job seekers, students, spam, vendors, VCs, competitors), "
